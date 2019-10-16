@@ -30,8 +30,6 @@ def items
   @array = [] <<
 end
 
-def void_last_transaction
-  last_item - @total 
-end
+
 end
 
