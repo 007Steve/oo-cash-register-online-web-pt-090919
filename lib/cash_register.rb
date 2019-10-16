@@ -2,11 +2,11 @@ class CashRegister
 
     attr_accessor :total
     attr_reader :discount
-@@all_items =[]
+
     def initialize(employee_discount = 0)
         @total = 0
         @discount = employee_discount
-        @@add_items < self
+        
     end
 
     def discount
